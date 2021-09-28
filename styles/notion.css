@@ -160,7 +160,7 @@
 }
 
 .notion-collection-column-title {
-  display: none !important;
+  display: -ms-inline-flexbox !important;
 }
 
 .notion-collection-row-property .notion-property {
@@ -331,4 +331,8 @@
 .notion-bookmark:hover {
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
+}
+
+.light-mode {
+  background-color: mistyrose;
 }
